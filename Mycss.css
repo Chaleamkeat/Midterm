@@ -1,0 +1,115 @@
+#h2{
+    color: blue;
+}
+#head{
+    font-size: xx-large ;
+    font-weight: bolder;
+    justify-content: center;
+    background-color: hsl(352, 100%, 50%);
+    color: white;
+    height: 100px;
+    width: 100%;
+}
+#Subhead{
+    height: 50px;
+    width: 100%;
+    background-color: #333 ;
+}
+
+#Bodypage{
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    background-color: sandybrown;
+    width: 35%;
+    height: 500px;
+    color: black;
+    flex-direction: row;
+    margin: 1px;
+}
+#leftpage{
+    flex-direction: row;
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    background-color:salmon;
+    color: hwb(0 0% 100%);
+    width: 35%;
+    margin: 1px;
+    
+}
+#Rightpage{
+    font-size: x-large;
+    font-weight: lighter;
+    text-align: center;
+    background-color:salmon;
+    width: 35%;
+    color: hwb(0 0% 100%);
+    flex-direction: row;
+    margin: 1px;
+}
+#Footer{
+    flex-direction: row;
+    border-style: groove;
+    justify-content: center;
+    background-color: hwb(0 100% 0%);
+    
+}
+.flex-container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.flex-container-Bottom{
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    height: 50px;
+    width: 100px;
+}
+.flex-container-body{
+    display: flex;
+    flex-direction: column;
+}
+.nav a{
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.nav a:hover{
+    background-color: #5c5c5c;
+
+}
+.nav{
+    background-color: #111;
+    overflow: hidden;
+    bottom: 0 ;
+    width: 100%;
+}
+
+/* .flex-container-haed{
+    display: flex;
+    flex-direction: column;
+}
+.flex-container-left {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    width: 15%;
+}
+.flex-container-Body {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 65%;
+}
+.flex-container-Right {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 15%;
+} */
